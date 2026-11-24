@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { redirect } from "next/navigation"
+import { apiFetch} from "../../lib/loan-types"
 
 type ReceiptPageProps = { params: Promise<{ id: string }> };
 
